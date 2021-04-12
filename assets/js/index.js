@@ -17,7 +17,7 @@ function getUserInfo() {
             return layui.layer.msg('获取用户基本信息失败！');
          }
 
-         // 调用 renderAvatar 获取用户头像
+         // 调用 renderAvatar 渲染用户头像和用户信息
          renderAvatar(res.data);
       },
       //  控制用户的访问权限,除了登录注册页面，其他的页面都需要控制用户访问其他页面的权利，
